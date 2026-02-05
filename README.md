@@ -47,7 +47,7 @@ Each folder focuses on one concept and contains beginner-friendly problems relat
 ## 🗂️ Repository Structure
 
 python-beginner-problem-catalog/
- │
+│
  ├── 01_basics_syntax/
  ├── 02_variables_and_datatypes/
  ├── 03_conditions_if_else/
