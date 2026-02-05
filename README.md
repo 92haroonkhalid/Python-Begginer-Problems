@@ -47,20 +47,20 @@ Each folder focuses on one concept and contains beginner-friendly problems relat
 ## 🗂️ Repository Structure
 
 python-beginner-problem-catalog/
-│
-├── 01_basics_syntax/
-├── 02_variables_and_datatypes/
-├── 03_conditions_if_else/
-├── 04_loops/
-├── 05_strings/
-├── 06_lists/
-├── 07_tuples_and_sets/
-├── 08_dictionaries/
-├── 09_functions/
-├── 10_file_handling/
-├── 11_logic_building_mini_problems/
-│
-└── README.md
+ │
+ ├── 01_basics_syntax/
+ ├── 02_variables_and_datatypes/
+ ├── 03_conditions_if_else/
+ ├── 04_loops/
+ ├── 05_strings/
+ ├── 06_lists/
+ ├── 07_tuples_and_sets/
+ ├── 08_dictionaries/
+ ├── 09_functions/
+ ├── 10_file_handling/
+ ├── 11_logic_building_mini_problems/
+ │
+ └── README.md
 
 
 Each folder contains:
