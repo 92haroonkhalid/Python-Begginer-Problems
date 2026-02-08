@@ -35,3 +35,16 @@ princple_amount = 500
 interest = 200
 interest_rate = 6
 print("Simple Interest is : ", (princple_amount*interest*interest_rate)/100)
+
+# Store and print boolean values
+x = True
+y = False
+print(x , y)
+
+# Use type() function
+x = 5
+print(type(x))
+
+# Take input and display its length
+x = input("Enter something : ")
+print("Length of entered string is : ",len(x))
