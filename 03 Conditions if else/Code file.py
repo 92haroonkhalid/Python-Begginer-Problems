@@ -45,3 +45,36 @@ elif x==366:
     print("It is a leap year.")
 else:
     print("Enter valid days.")
+
+# Check voting eligibility
+age = int(input("Enter your age in numbers : "))
+if age >= 18:
+    print("You are eligible to cast a vote in elections.")
+else:
+    print("Not eligible.")
+
+# Check pass or fail
+marks = int(input("Enter your marks in digits :"))
+if marks >= 50:
+    print("Congrats! You are passed.")
+else:
+    print("You are fail.")
+
+# Convert marks to grade
+marks = int(input("Enter your marks in digits : "))
+if marks >= 85 or marks <= 100:
+    print("Grade A")
+elif marks <85 or marks >=75:
+    print("Grade B+")
+elif marks <75 or marks >= 70:
+    print("Grade B")
+elif marks <70 or marks >= 65 :
+    print("Grade C+")
+elif marks <65 or marks >= 60 :
+    print("Grade C")
+elif marks <60 or marks >=55:
+    print("Grade D+")
+elif marks < 55 or marks >= 50:
+    print("Grade D")
+else :
+    print("Grade F")
