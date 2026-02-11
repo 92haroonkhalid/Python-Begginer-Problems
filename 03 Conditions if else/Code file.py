@@ -1,13 +1,15 @@
 # Check if number is positive or negative
 x = int(input("Enter a number : "))
-if x >= 0:
+if x > 0:
     print("It is a positive number.")
 elif x < 0:
     print("It is a negative number.")
+else:
+    print("It is zero")
 
 # Check even or odd
 x = int(input("Enter a number : "))
-if (x % 2 == 0 or x % 3 == 0):
+if (x % 2 == 0):
     print("It is an Even number.")
 else:
     print("Is is an Odd number.")
@@ -38,13 +40,11 @@ else:
     print(f"{c} is greater than others.")
 
 # Check if a year is leap year
-x = int(input("Enter total days in year to check if it is a leap year or not :"))
-if x==365:
+x = int(input("Enter a year to check if it is a leap year or not :"))
+if x % 4 != 0:
     print("It is a simple year not a leap year.")
-elif x==366:
-    print("It is a leap year.")
 else:
-    print("Enter valid days.")
+    print("It is a leap year.")
 
 # Check voting eligibility
 age = int(input("Enter your age in numbers : "))
@@ -62,33 +62,29 @@ else:
 
 # Convert marks to grade
 marks = int(input("Enter your marks in digits : "))
-if marks >= 85 or marks <= 100:
+if 85 <= marks <= 100:
     print("Grade A")
-elif marks <85 or marks >=75:
+elif 75 <= marks < 85:
     print("Grade B+")
-elif marks <75 or marks >= 70:
+elif 70 <= marks < 75:
     print("Grade B")
-elif marks <70 or marks >= 65 :
+elif 65 <= marks < 70:
     print("Grade C+")
-elif marks <65 or marks >= 60 :
+elif 60 <= marks < 65:
     print("Grade C")
-elif marks <60 or marks >=55:
+elif 55 <= marks < 60:
     print("Grade D+")
-elif marks < 55 or marks >= 50:
+elif 50 <= marks < 55:
     print("Grade D")
 else :
     print("Grade F")
 
 # Check if character is vowel
-vowels = "aeiou"
-for i in vowels:
-    a = input("Enter a character to check if it is vowel or not : ").lower()
-    if a == i:
-        print("It is a vowel character.")
-        break
-    else:
-        print("It is a consonent.")
-        break
+a = input("Enter a character to check if it is vowel or not : ").lower()
+if a in "aeiou":
+    print("It is a vowel character.")
+else:
+    print("It is a consonent.")
 
 # Simple calculator using if-else
 n1 = int(input("Enter 1st number : "))
