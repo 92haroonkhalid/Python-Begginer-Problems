@@ -89,3 +89,18 @@ for i in vowels:
     else:
         print("It is a consonent.")
         break
+
+# Simple calculator using if-else
+n1 = int(input("Enter 1st number : "))
+n2 = int(input("Enter 2nd number : "))
+choice = int(input("Enter 1 to add, 2 to sub, 3 to mult, and 4 to div\n"))
+if choice == 1:
+    print(n1+n2)
+elif choice == 2:
+    print(n1-n2)
+elif choice == 3:
+    print(n1*n2)
+elif choice == 4:
+    print(n1/n2)
+else:
+    print("Invalid choice!")
