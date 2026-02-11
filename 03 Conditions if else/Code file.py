@@ -78,3 +78,14 @@ elif marks < 55 or marks >= 50:
     print("Grade D")
 else :
     print("Grade F")
+
+# Check if character is vowel
+vowels = "aeiou"
+for i in vowels:
+    a = input("Enter a character to check if it is vowel or not : ").lower()
+    if a == i:
+        print("It is a vowel character.")
+        break
+    else:
+        print("It is a consonent.")
+        break
